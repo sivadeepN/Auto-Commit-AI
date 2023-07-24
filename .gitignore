@@ -1,0 +1,20 @@
+# Ignore the .idea directory created by IDEs
+.idea/
+
+# Ignore the build directory
+build/
+
+# Ignore the generated egg-info directory
+ai_commit.egg-info/
+
+# Ignore any compiled Python files
+*.pyc
+
+# Ignore the virtual environment directory (if you have one)
+venv/
+
+# Ignore any local development settings files
+*.env
+
+# Ignore any temporary files or backup files
+*~
