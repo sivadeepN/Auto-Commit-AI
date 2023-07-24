@@ -4,7 +4,7 @@ import openai
 import subprocess
 
 # Get the OpenAI API key from the environment variable
-openai.api_key = os.environ.get('AI_COMMIT_OPEN_AI_KEY')
+openai.api_key = os.environ.get('AI_COMMIT_OPENAI_KEY')
 
 
 def parse_git_diff():
