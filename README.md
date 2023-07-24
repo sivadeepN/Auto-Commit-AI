@@ -1,5 +1,5 @@
 
-![ezgif com-video-to-gif (1)](https://github.com/sivadeepN/Auto-Commit-AI/assets/22883726/d15443a8-eb93-4125-881b-442f8ca784a6)
+![ezgif com-video-to-gif (1)](https://github.com/sivadeepN/Auto-Commit-AI/assets/22883726/b00bdb92-caa6-4a82-b31a-83dc7993b257)
 
 
 # AI Commit CLI Tool
