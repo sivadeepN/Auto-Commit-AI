@@ -1,3 +1,8 @@
+
+![Screen Recording 2023-07-24 at 6 49 05 PM](https://github.com/sivadeepN/Auto-Commit-AI/assets/22883726/23888a5d-dcd4-41c7-9a9e-87f4de6e3fd4)
+
+
+
 # AI Commit CLI Tool
 
 ## Overview
