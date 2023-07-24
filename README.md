@@ -31,6 +31,7 @@ Make the script executable:
 To use the AI Commit CLI tool, you need an OpenAI API key. You can obtain an API key by signing up for the OpenAI service and creating an API key in the OpenAI web interface. See OpenAI API Keys for details.
 
 Once you have your API key, set it as an environment variable in your shell:
-`export OPENAI_API_KEY=your_openai_api_key_here
+`export AI_COMMIT_OPENAI_KEY=your_openai_api_key_here
 `
-Replace your_openai_api_key_here with your actual OpenAI API key. Alternatively, you can add this line to your shell's configuration file (e.g., .bashrc, .zshrc) to set the API key permanently.
+or add it in your.bashrc or .zshrc
+Replace AI_COMMIT_OPENAI_KEY with your actual OpenAI API key. Alternatively, you can add this line to your shell's configuration file (e.g., .bashrc, .zshrc) to set the API key permanently.
