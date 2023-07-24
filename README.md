@@ -1,5 +1,5 @@
 
-![Screen Recording 2023-07-24 at 6 59 06 PM](https://github.com/sivadeepN/Auto-Commit-AI/assets/22883726/ee585a4f-b909-45cd-89bc-7126ba3cbf5d)
+![ezgif com-video-to-gif (1)](https://github.com/sivadeepN/Auto-Commit-AI/assets/22883726/d15443a8-eb93-4125-881b-442f8ca784a6)
 
 
 # AI Commit CLI Tool
