@@ -21,12 +21,12 @@ def parse_git_diff():
         removed_diff_lines = [line[1:] for line in filtered_diff_lines if line.startswith('-')]
 
         # Create the prompt
-        prompt = f"Generate a commit message of strictly 5-10 words based on these staged changes made:\n\nAdded changes:\n\n{added_diff_lines}\n\nRemoved changes:\n\n{removed_diff_lines}\n\nComplete Git diff:\n\n{diff_output}\n\nGenerated Commit Message:"
+        prompt = f"Generate non-repetive 3 commit messages of strictly 5-10 words based on these staged changes made:\n\nAdded changes:\n\n{added_diff_lines}\n\nRemoved changes:\n\n{removed_diff_lines}\n\nComplete Git diff:\n\n{diff_output}\n\nGenerated Commit Message:"
 
     except subprocess.CalledProcessError:
         # If no staged changes, use `git diff` to capture all changes in the working directory
         diff_output = subprocess.check_output(['git', 'diff'])
-        prompt = f"Generate a commit message based on the following changes made:\n\n{diff_output.decode('utf-8')}\n\nGenerated Commit Message:"
+        prompt = f"Generate non-repetive 3 commit messages of strictly 5-10 words based on these staged changes made:\n\n{diff_output.decode('utf-8')}\n\nGenerated Commit Message:"
 
     return prompt
 
